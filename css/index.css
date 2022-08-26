@@ -232,11 +232,13 @@ nav {
 }
 
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:1440px) {
     nav {
-        padding: 1rem;
+        padding: 0.5rem;
     }
-
+    .nav-item{
+        font-size: 1.2rem;
+    }
     .intro-section {
         padding: 1rem;
     }
@@ -246,18 +248,17 @@ nav {
     }
 
     .left-section h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .sub-headlines h5 {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .sub-headline img {
-        height: 1.3rem;
-        width: 1.3rem;
-        background-color: var(--orange);
-        border-radius: 50%;
+        height: 1rem;
+        width: 1rem;
+
     }
 
     .text {
@@ -270,12 +271,13 @@ nav {
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:600px) {
     .hamburger {
         display: block;
     }
 
-    .nav-item {
+    .nav-items,
+    .nav-img {
         display: none;
     }
 
@@ -285,7 +287,8 @@ nav {
     }
 
     .text {
-        width: 450px;
+        width: 400px;
+        
     }
 
     .right-section {
